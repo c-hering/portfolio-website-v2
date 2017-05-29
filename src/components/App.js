@@ -10,17 +10,15 @@ export default class App extends Component {
       <div className="App">
         <div className="App-header">
           <NavBar />
-        <div id="top-content-wrapper">
-          <div id="top-title-wrapper">
-            <h1 id="top-title" className="content-title">
-              Let&#39;s Create Together
-            </h1>
+          <div id="top-content-wrapper">
+            <div id="top-title-wrapper">
+              <h1 id="top-title" className="content-title">
+                Let&#39;s Create Together
+              </h1>
+            </div>
+            <ProcGroup />
+            <button type="button" id="launch-button" className="button sliding-middle-out">GO</button>
           </div>
-          <ProcGroup />
-          <button type="button" id="launch-button" className="button sliding-middle-out">GO</button>
-        </div>
-        </div>
-        <div id="mid-gradient">
         </div>
         <div id="middle-content-wrapper">
         </div>
