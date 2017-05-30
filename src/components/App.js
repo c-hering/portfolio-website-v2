@@ -17,8 +17,10 @@ export default class App extends Component {
           </div>
         </div>
         <div id="middle-content-wrapper">
+          <p id="intro">Hi, I&#39;m Caleb, and I make stunning <br/>personal websites for those who want them.</p>
+        </div>
+        <div id="lower-content-wrapper">
           <ProcGroup />
-          <button type="button" id="launch-button" className="button sliding-middle-out">GO</button>
         </div>
       </div>
     );
