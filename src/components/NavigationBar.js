@@ -10,10 +10,9 @@ export default class NavBar extends Component{
     return(
       <div id="nav-wrapper">
         <h1 id="navbar-title">Caleb Hering</h1>
-        {this.renderNavButton("HOME")}
+        {this.renderNavButton("CONTACT")}
         {this.renderNavButton("PROJECTS")}
         {this.renderNavButton("ABOUT")}
-        {this.renderNavButton("CONTACT")}
       </div>
     );
   }

@@ -17,7 +17,8 @@ export default class App extends Component {
           </div>
         </div>
         <div id="middle-content-wrapper">
-          <p id="intro">Hi, I&#39;m Caleb, and I make stunning <br/>personal websites for those who want them.</p>
+          <p id="intro">Hi, my name is Caleb. I create <span className="highlights-about">personal
+          </span><br/>and <span className="highlights-about">elegant</span> websites for independent creators.</p>
         </div>
         <div id="lower-content-wrapper">
           <ProcGroup />
